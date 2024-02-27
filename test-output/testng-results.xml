@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T04:47:35Z" name="Default suite" finished-at="2024-02-27T04:47:44Z" duration-ms="8869">
+    <groups>
+    </groups>
+    <test started-at="2024-02-27T04:47:35Z" name="Default test" finished-at="2024-02-27T04:47:44Z" duration-ms="8869">
+      <class name="testng1.ParallelTesting">
+        <test-method signature="invokeEdge()[pri:0, instance:testng1.ParallelTesting@3730ab42]" started-at="2024-02-27T10:17:35Z" name="invokeEdge" finished-at="2024-02-27T10:17:40Z" duration-ms="4550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeEdge -->
+        <test-method signature="invokechrome()[pri:0, instance:testng1.ParallelTesting@3730ab42]" started-at="2024-02-27T10:17:40Z" name="invokechrome" finished-at="2024-02-27T10:17:44Z" duration-ms="4268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokechrome -->
+      </class> <!-- testng1.ParallelTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
