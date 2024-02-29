@@ -1,21 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="23" passed="21" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T04:47:35Z" name="Default suite" finished-at="2024-02-27T04:47:44Z" duration-ms="8869">
+  <suite started-at="2024-02-29T06:54:39Z" name="Suite" finished-at="2024-02-29T06:55:40Z" duration-ms="60621">
     <groups>
+      <group name="Sanity">
+        <method signature="Grouping.Products()[pri:0, instance:testng1.Grouping@c03cf28]" name="Products" class="testng1.Grouping"/>
+        <method signature="Grouping.login()[pri:0, instance:testng1.Grouping@c03cf28]" name="login" class="testng1.Grouping"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Grouping.AddToCart()[pri:0, instance:testng1.Grouping@c03cf28]" name="AddToCart" class="testng1.Grouping"/>
+        <method signature="Grouping.Payment()[pri:0, instance:testng1.Grouping@c03cf28]" name="Payment" class="testng1.Grouping"/>
+        <method signature="Grouping.login()[pri:0, instance:testng1.Grouping@c03cf28]" name="login" class="testng1.Grouping"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-02-27T04:47:35Z" name="Default test" finished-at="2024-02-27T04:47:44Z" duration-ms="8869">
+    <test started-at="2024-02-29T06:54:39Z" name="Test" finished-at="2024-02-29T06:55:40Z" duration-ms="60621">
+      <class name="testng1.AnnotationsEg">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="beforeClass" finished-at="2024-02-29T12:24:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="beforeMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testcase1()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="testcase1" finished-at="2024-02-29T12:24:39Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="afterMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testcase2()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="testcase2" finished-at="2024-02-29T12:24:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="beforeMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="afterMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="beforeMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testcase3()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="testcase3" finished-at="2024-02-29T12:24:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="afterMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="beforeMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testcase4()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="testcase4" finished-at="2024-02-29T12:24:39Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="afterMethod" finished-at="2024-02-29T12:24:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng1.AnnotationsEg@609db43b]" started-at="2024-02-29T12:24:39Z" name="afterClass" finished-at="2024-02-29T12:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng1.AnnotationsEg -->
       <class name="testng1.ParallelTesting">
-        <test-method signature="invokeEdge()[pri:0, instance:testng1.ParallelTesting@3730ab42]" started-at="2024-02-27T10:17:35Z" name="invokeEdge" finished-at="2024-02-27T10:17:40Z" duration-ms="4550" status="PASS">
+        <test-method signature="invokeEdge()[pri:0, instance:testng1.ParallelTesting@55f616cf]" started-at="2024-02-29T12:24:39Z" name="invokeEdge" finished-at="2024-02-29T12:24:48Z" duration-ms="8358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeEdge -->
-        <test-method signature="invokechrome()[pri:0, instance:testng1.ParallelTesting@3730ab42]" started-at="2024-02-27T10:17:40Z" name="invokechrome" finished-at="2024-02-27T10:17:44Z" duration-ms="4268" status="PASS">
+        <test-method signature="invokechrome()[pri:0, instance:testng1.ParallelTesting@55f616cf]" started-at="2024-02-29T12:24:48Z" name="invokechrome" finished-at="2024-02-29T12:24:52Z" duration-ms="4790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokechrome -->
       </class> <!-- testng1.ParallelTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testng1.InvokeEdge">
+        <test-method signature="inovkefirefox()[pri:0, instance:testng1.InvokeEdge@4a668b6e]" started-at="2024-02-29T12:25:19Z" name="inovkefirefox" finished-at="2024-02-29T12:25:34Z" duration-ms="14897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inovkefirefox -->
+      </class> <!-- testng1.InvokeEdge -->
+      <class name="testng1.SoftAssert">
+        <test-method signature="testSoftAssert()[pri:0, instance:testng1.SoftAssert@1356d4d4]" started-at="2024-02-29T12:24:52Z" name="testSoftAssert" finished-at="2024-02-29T12:25:05Z" duration-ms="12584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSoftAssert -->
+      </class> <!-- testng1.SoftAssert -->
+      <class name="testng1.DependsOnMethodEg">
+        <test-method signature="testCase1()[pri:0, instance:testng1.DependsOnMethodEg@6497b078]" started-at="2024-02-29T12:25:05Z" name="testCase1" finished-at="2024-02-29T12:25:05Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase3()[pri:0, instance:testng1.DependsOnMethodEg@6497b078]" started-at="2024-02-29T12:25:05Z" name="testCase3" finished-at="2024-02-29T12:25:05Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase2()[pri:0, instance:testng1.DependsOnMethodEg@6497b078]" started-at="2024-02-29T12:25:40Z" name="testCase2" finished-at="2024-02-29T12:25:40Z" depends-on-methods="testng1.DependsOnMethodEg.testCase1" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- testng1.DependsOnMethodEg -->
+      <class name="testng1.InvokeChrome">
+        <test-method signature="invokechrome()[pri:0, instance:testng1.InvokeChrome@4f67eb2a]" started-at="2024-02-29T12:25:05Z" name="invokechrome" finished-at="2024-02-29T12:25:19Z" duration-ms="13725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokechrome -->
+      </class> <!-- testng1.InvokeChrome -->
+      <class name="testng1.HardAssert">
+        <test-method signature="SoftAssert()[pri:0, instance:testng1.HardAssert@5f683daf]" started-at="2024-02-29T12:25:34Z" name="SoftAssert" finished-at="2024-02-29T12:25:40Z" duration-ms="6124" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.58)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df20ace7211ceaf947baf80e0cdd3e06, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.58, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52645/devtoo..., se:cdpVersion: 122.0.6261.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df20ace7211ceaf947baf80e0cdd3e06]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.58)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df20ace7211ceaf947baf80e0cdd3e06, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.58, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52645/devtoo..., se:cdpVersion: 122.0.6261.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df20ace7211ceaf947baf80e0cdd3e06
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1123)
+	at testng1.HardAssert.SoftAssert(HardAssert.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoftAssert -->
+      </class> <!-- testng1.HardAssert -->
+      <class name="testng1.EnableFalse">
+        <test-method signature="testCase2()[pri:0, instance:testng1.EnableFalse@3c947bc5]" started-at="2024-02-29T12:24:39Z" name="testCase2" finished-at="2024-02-29T12:24:39Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:testng1.EnableFalse@3c947bc5]" started-at="2024-02-29T12:24:39Z" name="testCase3" finished-at="2024-02-29T12:24:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- testng1.EnableFalse -->
+      <class name="testng1.Grouping">
+        <test-method signature="AddToCart()[pri:0, instance:testng1.Grouping@c03cf28]" started-at="2024-02-29T12:25:05Z" name="AddToCart" finished-at="2024-02-29T12:25:05Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="Payment()[pri:0, instance:testng1.Grouping@c03cf28]" started-at="2024-02-29T12:25:05Z" name="Payment" finished-at="2024-02-29T12:25:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method signature="Products()[pri:0, instance:testng1.Grouping@c03cf28]" started-at="2024-02-29T12:25:05Z" name="Products" finished-at="2024-02-29T12:25:05Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Products -->
+        <test-method signature="login()[pri:0, instance:testng1.Grouping@c03cf28]" started-at="2024-02-29T12:25:05Z" name="login" finished-at="2024-02-29T12:25:05Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testng1.Grouping -->
+      <class name="testng1.PriorityTesting">
+        <test-method signature="testCase1()[pri:0, instance:testng1.PriorityTesting@1329eff]" started-at="2024-02-29T12:25:05Z" name="testCase1" finished-at="2024-02-29T12:25:05Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:1, instance:testng1.PriorityTesting@1329eff]" started-at="2024-02-29T12:25:40Z" name="testCase2" finished-at="2024-02-29T12:25:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:2, instance:testng1.PriorityTesting@1329eff]" started-at="2024-02-29T12:25:40Z" name="testCase3" finished-at="2024-02-29T12:25:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- testng1.PriorityTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

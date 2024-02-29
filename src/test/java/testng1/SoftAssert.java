@@ -28,13 +28,13 @@ package testng1;
 			
 			String actualTitle = driver.getTitle();
 			
-			String expectedTitle = "Orange";
+			String expectedTitle = "OrangeHRM";
 			
 			Assert st;
 			Assert.assertEquals(actualTitle, expectedTitle);
-			
+			Thread.sleep(2000);
 			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
-			
+			Thread.sleep(2000);
 			driver.close();
 			
 			

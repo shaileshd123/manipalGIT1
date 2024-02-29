@@ -31,7 +31,7 @@ import org.testng.annotations.Test;
 			
 			String actualTitle = driver.getTitle();
 			
-			String expectedTitle = "Orange";
+			String expectedTitle = "OrangeHRM";
 			
 			Assert.assertEquals(actualTitle, expectedTitle);
 			
