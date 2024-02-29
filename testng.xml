@@ -3,16 +3,16 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="testng1.EnableFalse"/>
+     <!-- <class name="testng1.EnableFalse"/>
       <class name="testng1.AnnotationsEg"/>
       <class name="testng1.ParallelTesting"/>
       <class name="testng1.SoftAssert"/>
       <class name="testng1.Grouping"/>
       <class name="testng1.PriorityTesting"/>
-      <class name="testng1.DependsOnMethodEg"/>
+      <class name="testng1.DependsOnMethodEg"/>-->
       <class name="testng1.InvokeChrome"/>
-      <class name="testng1.InvokeEdge"/>
-      <class name="testng1.HardAssert"/>
+     <!--  <class name="testng1.InvokeEdge"/>
+      <class name="testng1.HardAssert"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

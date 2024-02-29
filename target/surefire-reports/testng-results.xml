@@ -1,168 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T12:28:10 IST" name="Suite" finished-at="2024-02-29T12:29:03 IST" duration-ms="52691">
+  <suite started-at="2024-02-29T12:47:47 IST" name="Suite" finished-at="2024-02-29T12:47:55 IST" duration-ms="7495">
     <groups>
-      <group name="Sanity">
-        <method signature="Grouping.Products()[pri:0, instance:testng1.Grouping@169e6180]" name="Products" class="testng1.Grouping"/>
-        <method signature="Grouping.login()[pri:0, instance:testng1.Grouping@169e6180]" name="login" class="testng1.Grouping"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="Grouping.AddToCart()[pri:0, instance:testng1.Grouping@169e6180]" name="AddToCart" class="testng1.Grouping"/>
-        <method signature="Grouping.Payment()[pri:0, instance:testng1.Grouping@169e6180]" name="Payment" class="testng1.Grouping"/>
-        <method signature="Grouping.login()[pri:0, instance:testng1.Grouping@169e6180]" name="login" class="testng1.Grouping"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-02-29T12:28:10 IST" name="Test" finished-at="2024-02-29T12:29:03 IST" duration-ms="52691">
-      <class name="testng1.ParallelTesting">
-        <test-method signature="invokeEdge()[pri:0, instance:testng1.ParallelTesting@20ccf40b]" started-at="2024-02-29T12:28:10 IST" name="invokeEdge" finished-at="2024-02-29T12:28:27 IST" duration-ms="16339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeEdge -->
-        <test-method signature="invokechrome()[pri:0, instance:testng1.ParallelTesting@20ccf40b]" started-at="2024-02-29T12:28:27 IST" name="invokechrome" finished-at="2024-02-29T12:28:31 IST" duration-ms="4503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokechrome -->
-      </class> <!-- testng1.ParallelTesting -->
-      <class name="testng1.AnnotationsEg">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="beforeClass" finished-at="2024-02-29T12:28:10 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="beforeMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testcase1()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="testcase1" finished-at="2024-02-29T12:28:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="afterMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="beforeMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testcase2()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="testcase2" finished-at="2024-02-29T12:28:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="afterMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="beforeMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testcase3()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="testcase3" finished-at="2024-02-29T12:28:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="afterMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="beforeMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testcase4()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="testcase4" finished-at="2024-02-29T12:28:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase4 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="afterMethod" finished-at="2024-02-29T12:28:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng1.AnnotationsEg@56cdfb3b]" started-at="2024-02-29T12:28:10 IST" name="afterClass" finished-at="2024-02-29T12:28:10 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- testng1.AnnotationsEg -->
-      <class name="testng1.InvokeEdge">
-        <test-method signature="inovkefirefox()[pri:0, instance:testng1.InvokeEdge@3b6ddd1d]" started-at="2024-02-29T12:28:48 IST" name="inovkefirefox" finished-at="2024-02-29T12:28:54 IST" duration-ms="6103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inovkefirefox -->
-      </class> <!-- testng1.InvokeEdge -->
-      <class name="testng1.SoftAssert">
-        <test-method signature="testSoftAssert()[pri:0, instance:testng1.SoftAssert@2fb3536e]" started-at="2024-02-29T12:28:31 IST" name="testSoftAssert" finished-at="2024-02-29T12:28:43 IST" duration-ms="11320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSoftAssert -->
-      </class> <!-- testng1.SoftAssert -->
-      <class name="testng1.DependsOnMethodEg">
-        <test-method signature="testCase1()[pri:0, instance:testng1.DependsOnMethodEg@22ef9844]" started-at="2024-02-29T12:28:43 IST" name="testCase1" finished-at="2024-02-29T12:28:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:testng1.DependsOnMethodEg@22ef9844]" started-at="2024-02-29T12:28:43 IST" name="testCase2" finished-at="2024-02-29T12:28:43 IST" depends-on-methods="testng1.DependsOnMethodEg.testCase1" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:0, instance:testng1.DependsOnMethodEg@22ef9844]" started-at="2024-02-29T12:28:43 IST" name="testCase3" finished-at="2024-02-29T12:28:43 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-      </class> <!-- testng1.DependsOnMethodEg -->
-      <class name="testng1.HardAssert">
-        <test-method signature="SoftAssert()[pri:0, instance:testng1.HardAssert@3f6b0be5]" started-at="2024-02-29T12:28:54 IST" name="SoftAssert" finished-at="2024-02-29T12:29:03 IST" duration-ms="8928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SoftAssert -->
-      </class> <!-- testng1.HardAssert -->
+    <test started-at="2024-02-29T12:47:47 IST" name="Test" finished-at="2024-02-29T12:47:55 IST" duration-ms="7495">
       <class name="testng1.InvokeChrome">
-        <test-method signature="invokechrome()[pri:0, instance:testng1.InvokeChrome@6283d8b8]" started-at="2024-02-29T12:28:43 IST" name="invokechrome" finished-at="2024-02-29T12:28:48 IST" duration-ms="5306" status="PASS">
+        <test-method signature="invokechrome()[pri:0, instance:testng1.InvokeChrome@c333c60]" started-at="2024-02-29T12:47:47 IST" name="invokechrome" finished-at="2024-02-29T12:47:55 IST" duration-ms="7426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokechrome -->
       </class> <!-- testng1.InvokeChrome -->
-      <class name="testng1.EnableFalse">
-        <test-method signature="testCase2()[pri:0, instance:testng1.EnableFalse@2df9b86]" started-at="2024-02-29T12:28:10 IST" name="testCase2" finished-at="2024-02-29T12:28:10 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:0, instance:testng1.EnableFalse@2df9b86]" started-at="2024-02-29T12:28:10 IST" name="testCase3" finished-at="2024-02-29T12:28:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-      </class> <!-- testng1.EnableFalse -->
-      <class name="testng1.PriorityTesting">
-        <test-method signature="testCase1()[pri:0, instance:testng1.PriorityTesting@35aea049]" started-at="2024-02-29T12:28:43 IST" name="testCase1" finished-at="2024-02-29T12:28:43 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:1, instance:testng1.PriorityTesting@35aea049]" started-at="2024-02-29T12:28:43 IST" name="testCase2" finished-at="2024-02-29T12:28:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:2, instance:testng1.PriorityTesting@35aea049]" started-at="2024-02-29T12:28:43 IST" name="testCase3" finished-at="2024-02-29T12:28:43 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-      </class> <!-- testng1.PriorityTesting -->
-      <class name="testng1.Grouping">
-        <test-method signature="AddToCart()[pri:0, instance:testng1.Grouping@169e6180]" started-at="2024-02-29T12:28:43 IST" name="AddToCart" finished-at="2024-02-29T12:28:43 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddToCart -->
-        <test-method signature="Payment()[pri:0, instance:testng1.Grouping@169e6180]" started-at="2024-02-29T12:28:43 IST" name="Payment" finished-at="2024-02-29T12:28:43 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Payment -->
-        <test-method signature="Products()[pri:0, instance:testng1.Grouping@169e6180]" started-at="2024-02-29T12:28:43 IST" name="Products" finished-at="2024-02-29T12:28:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Products -->
-        <test-method signature="login()[pri:0, instance:testng1.Grouping@169e6180]" started-at="2024-02-29T12:28:43 IST" name="login" finished-at="2024-02-29T12:28:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testng1.Grouping -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
